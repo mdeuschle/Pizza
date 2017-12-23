@@ -10,8 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var pizzaNameLabel: UILabel!
+    @IBOutlet weak var pizzaTextField: UITextField!
+
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+
+    @IBAction func setDefaultText(_ sender: UIButton) {
+        
     }
 }
 
